@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Search Videos</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="author" href="humans.txt">
+        <script src="js/p.js"></script>
+        <script src="js/script.js"></script>
+
+    </head>
+    <body>
+		<div id="container">
+			<header>
+				<h1>  Search <span> Vidz </span></h1>
+				<p> Search all youtube Videos</p>
+			</header>
+			<section>
+				<form id="search-form" name="search-form" onsubmit="return search()">
+					<div class="fieldcontainer">
+						<input type="search" id="query" class="search-field" placeholder="Search YouTube">
+						<input type="submit" name="search-btn" id="search-btn" value="">
+					</div>
+				</form>
+				<ul id="results"></ul>
+				<div id="buttons"></div>
+			</section>
+			<footer>
+				<p> Copyright &copy; All rights reserved</p>
+			</footer>
+		</div>   
+		<div class="youtube-overlay">
+			<div class="youtube-modal">
+				<iframe class="video-iframe" src="">
+				</iframe>' 
+			</div>
+		</div>     
+    </body>
+
+</html>
