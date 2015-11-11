@@ -28,6 +28,8 @@
 					</div>
 				</form>
         <ul id="results" ng-show="ctrl.results.length">
+        
+        <search-list-item></search-list-item>
           <li ng-repeat="result in ctrl.results track by $index" 
               ng-click="ctrl.activeVideoId = result.id.videoId" class="list-item clearfix">
             <div class="list-left">
